@@ -37,7 +37,7 @@ class LinkedList:
 
         prev_node = None
         while current_node and current_node.data != data:
-            prev_node = currernt_node
+            prev_node = current_node
             current_node = current_node.next
 
         if current_node is None:
